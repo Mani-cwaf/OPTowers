@@ -12,7 +12,7 @@ namespace OPTowers
     public class Main : BloonsTD6Mod
     {
         public static readonly ModSettingBool ShaggyTowerEnabled = true;
-        public static readonly ModSettingBool OPFreeDartMonkeyEnabled = false;
-        public static readonly ModSettingBool OPFreeGlueGunnerEnabled = false;
+        public static readonly ModSettingBool OPFreeDartMonkeyEnabled = true;
+        public static readonly ModSettingBool OPFreeGlueGunnerEnabled = true;
     }
 }

@@ -37,12 +37,14 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\0Harmony.dll</HintPath>
+      <HintPath>D:\Stuffs\Steam\steamapps\common\BloonsTD6\MelonLoader\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Stuffs\Steam\steamapps\common\BloonsTD6\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Btd6ModHelper">
+    <Reference Include="Btd6ModHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Stuffs\Steam\steamapps\common\BloonsTD6\Mods\Btd6ModHelper.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
@@ -51,8 +53,9 @@
     <Reference Include="Il2CppSystem">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
     </Reference>
-    <Reference Include="MelonLoader">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\MelonLoader.dll</HintPath>
+    <Reference Include="MelonLoader, Version=0.5.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Stuffs\Steam\steamapps\common\BloonsTD6\MelonLoader\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,28 +75,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
-    <Compile Include="Towers\OPFreeGlueGunner\OPFreeGlueGunner.cs" />
     <Compile Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey.cs" />
+    <Compile Include="Towers\OPFreeGlueGunner\OPFreeGlueGunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Towers\ShaggyTower\ShaggyTower.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey-Icon.png" />
+    <EmbeddedResource Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey-Portrait.png" />
     <EmbeddedResource Include="Towers\OPFreeDartMonkey\OPFreeDartMonkeyDisplay.png" />
     <EmbeddedResource Include="Towers\OPFreeGlueGunner\OPFreeGlueGunnerDisplay.png" />
+    <EmbeddedResource Include="Towers\ShaggyTower\ShaggyTower.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Towers\OPFreeGlueGunner\OPFreeGlueGunner-Portrait.png" />
-    <EmbeddedResource Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey-Portrait.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey-Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Towers\OPFreeGlueGunner\OPFreeGlueGunner-Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Towers\ShaggyTower\ShaggyTower.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
