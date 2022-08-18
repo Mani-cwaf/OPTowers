@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
+    <Compile Include="ModHelperData.cs" />
     <Compile Include="Towers\OPFreeDartMonkey\OPFreeDartMonkey.cs" />
     <Compile Include="Towers\OPFreeGlueGunner\OPFreeGlueGunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
