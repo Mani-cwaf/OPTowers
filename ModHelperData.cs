@@ -1,4 +1,4 @@
-﻿namespace BloonChipper
+namespace OPTowers
 {
     public static class ModHelperData
     {
