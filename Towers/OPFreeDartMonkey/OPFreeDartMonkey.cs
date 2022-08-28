@@ -40,7 +40,7 @@ namespace OPFreeDartMonkey
             attackModel.range += 1000;
             tower.range += 1000;
             projectile.pierce = 10;
-            projectile.GetDamageModel().damage = 2140000000;
+            projectile.GetDamageModel().damage = 9999348398261687;
             projectile.GetBehavior<TravelStraitModel>().lifespan = 5;
             weapon.emission = new ArcEmissionModel("OPFreeDartMonkeyArcEmissionModel", 230, 0, 0, null, false);
             weapon.rate *= 0.85f;
